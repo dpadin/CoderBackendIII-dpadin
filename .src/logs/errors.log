@@ -1,0 +1,45 @@
+{"level":"error","message":"error","timestamp":"2025-05-27T20:25:31.233Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T20:25:31.234Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T20:25:31.237Z"}
+{"level":"error","message":"fatal","timestamp":"2025-05-27T20:26:11.068Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T20:26:11.070Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T20:26:11.070Z"}
+{"level":"error","message":"fatal","timestamp":"2025-05-27T20:27:29.503Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T20:27:29.503Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T20:27:29.504Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:27:38.145Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:27:38.148Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:27:38.148Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:44:57.865Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:44:57.866Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:44:57.866Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:45:59.457Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:45:59.459Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:45:59.459Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:46:27.789Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:46:27.790Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:46:27.791Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:48:55.716Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:48:55.718Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:48:55.718Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:49:11.631Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:49:11.631Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:49:11.632Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:49:11.862Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:49:11.870Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:49:11.894Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:49:12.071Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:49:12.072Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:49:12.072Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:49:12.261Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:49:12.261Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:49:12.262Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:49:12.452Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:49:12.452Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:49:12.453Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:49:12.655Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:49:12.656Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:49:12.656Z"}
+{"level":"error","message":"custom logger- fatal","timestamp":"2025-05-27T20:50:58.021Z"}
+{"level":"warn","message":"custom logger-warning","timestamp":"2025-05-27T20:50:58.023Z"}
+{"level":"info","message":"custom logger-info","timestamp":"2025-05-27T20:50:58.024Z"}

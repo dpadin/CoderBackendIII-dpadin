@@ -1,0 +1,119 @@
+Primer ejercicio
+
+Consigna
+Se aplicará un módulo de mocking y un manejador de errores al proyecto Adoptme.
+Formato
+Link al repositorio de github sin node_modules
+Sugerencias
+Céntrate solo en los errores más comunes 
+
+Aspectos a incluir
+Crear un módulo de Mocking para el servidor, con el fin de generar mascotas 
+(sin owner y con adopted en “false”) de acuerdo a un parámetro numérico. 
+Utilizar este módulo en un endpoint GET llamado “/mockingpets” y generar 100 
+mascotas con el mismo formato que entregaría una petición de Mongo.
+
+*****NOTAS*******
+Se genero un archivo petGenerator en /utils para generar los pets con faker
+se puede pasasr por params la cantidad de pets, sino defaultea a 100.
+el dafault se usa para el endpoint /mockpets
+
+
+Campos pet:
+     name:{        type:String,        required:true,    },
+    specie:{      type:String,        required:true     },
+    birthDate:Date, 
+    adopted:{     type:Boolean,       default:false     },
+    owner:{       type:mongoose.SchemaTypes.ObjectId,    ref:'Users'     },
+    image:String
+
+Ejemplo
+  
+{"name":"Candie","specie":"Mestiza","birthDate":"1998-01-01"}
+
+
+Además, generar un customizador de errores y crear un diccionario para tus 
+errores más comunes al registrar un usuario, crear una mascota, etc.
+COMPLETADO 
+Se agregaron try/catchs en las rutas /users  /api/adoptions  /api/pets para 
+capturar los errores.
+se agrego el modulo /middlewares/errorHandler para personalizar los errores capturadso
+se guardan los errores en /logs/error.log
+
+ACTIVIDAD #2
+
+Consigna
+Basado en nuestro proyecto principal, implementar un logger.
+Aspectos a incluir
+
+Primero, definir un sistema de niveles que tenga la siguiente prioridad (de menor a
+ mayor):
+debug, http, info, warning, error, fatal
+Después implementar un logger para desarrollo y un logger para producción, 
+el logger de desarrollo deberá loggear a partir del nivel debug, 
+sólo en consola
+
+Sin embargo, el logger del entorno productivo debería loggear sólo a partir de 
+nivel info.
+
+Además, el logger deberá enviar en un transporte de archivos a partir del nivel de
+ error en un nombre “errors.log”
+ 
+
+Agregar logs de valor alto en los puntos importantes de tu servidor (errores,
+ advertencias, etc) y modificar los console.log() habituales que tenemos para que
+  muestren todo a partir de winston.
+Crear un endpoint “/loggerTest” que permita probar todos los logs
+
+COMPLETADO
+
+
+PRE-ENTREGA #!
+Crear un router llamado mocks.router.js que funcione bajo la ruta base /api/mocks.
+Mover el endpoint “/mockingpets” (Desarrollado en el primer Desafío Entregable)
+ dentro de este router.
+
+COMPLETADO  
+USER:
+http://localhost:8080/api/mocks/mockingpets
+Ó 
+http://localhost:8080/api/mocks/mockingpets/qty aty = number
+
+
+Crear un módulo de Mocking para generar usuarios de acuerdo a un parámetro numérico.
+Dichos usuarios generados deberán tener las siguientes características:
+En “password” debe tener la contraseña “coder123” encriptada.
+“role” puede variar entre “user” y “admin”.
+“pets” debe ir como array vacío.
+COMPLETADO
+
+Dentro del router mocks.router.js, utilizar este módulo en un endpoint 
+GET llamado “/mockingusers”, y generar 50 usuarios con el mismo formato que 
+entregaría una petición de Mongo.
+COMPLETADO
+
+se debe entregar
+
+Dentro del router mocks.router.js, desarrollar un endpoint POST 
+llamado /generateData que reciba los parámetros numéricos “users” y “pets” 
+para generar e insertar en la base de datos la cantidad de registros indicados.
+Comprobar dichos registros insertados mediante los servicios GET de users y pets
+
+COMPLETADO
+post >>  http://localhost:8080/api/mocks/generatedata
+REQ.BODY {"users":100 , "pets":100}
+
+CHECK USERS:
+GET http://localhost:8080/api/users
+CHECK PETS:
+GET http://localhost:8080/api/pets
+
+
+Formato
+
+Link al repositorio de Github con el proyecto completo, sin la carpeta de
+ Node_modules.
+
+
+
+

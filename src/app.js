@@ -1,0 +1,46 @@
+import express from 'express';
+import mongoose from 'mongoose';
+import  { urlencoded } from "express";
+import cookieParser from 'cookie-parser';
+
+import usersRouter from './routes/users.router.js';
+import petsRouter from './routes/pets.router.js';
+import adoptionsRouter from './routes/adoption.router.js';
+import sessionsRouter from './routes/sessions.router.js';
+import loggerRouter from './routes/loggerRouter.js';  
+import mocksRouter from './routes/mocks.router.js ';  
+
+import dotenv from 'dotenv';
+//import { error } from 'console';
+import { errorHandler } from './middlewares/errorHandler.js';
+import { loggerProd, loggerDev, middlelog } from "./utils/logger.js"
+
+dotenv.config();
+
+
+const app = express();
+const PORT = process.env.PORT||8080;
+const connection = mongoose.connect("mongodb://localhost:27017/adoptions")
+
+app.use(express.json());
+  app.use(urlencoded({ extended: true }))
+app.use(cookieParser());
+app.use (middlelog); // Middleware to set logger based on environment
+
+
+app.use('/api/users',usersRouter);
+app.use('/api/pets',petsRouter);
+app.use('/api/adoptions',adoptionsRouter);
+app.use('/api/sessions',sessionsRouter);
+app.use('/api/loggerTest',loggerRouter);
+app.use('/api/mocks',mocksRouter);
+
+app.use(errorHandler);
+
+
+app.listen(PORT,()=>
+
+loggerDev.info(`Listening on ${PORT}`))
+loggerDev.info(`Server mode = ${process.env.NODE_ENV}`)
+// mongoose.connect("mongodb://localhost:27017/adoptions")
+  //console.log(`Listening on ${PORT}`))

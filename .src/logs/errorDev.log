@@ -1,0 +1,235 @@
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:21:15.895Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:26:49.199Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:26:57.593Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:27:31.782Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:27:45.128Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:28:47.389Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:28:48.704Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:28:51.156Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:29:23.202Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:30:28.624Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:30:30.710Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:34:18.022Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:37:39.743Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:42:41.757Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:43:24.732Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:44:39.746Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:44:54.958Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T18:46:34.621Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:46:34.680Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T18:47:11.308Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T18:47:11.335Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:47:11.341Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T18:48:09.447Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:48:09.479Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T18:48:46.262Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:48:46.308Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T18:50:44.573Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:50:44.603Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T18:52:03.579Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:52:03.622Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T18:53:37.197Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:53:37.247Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T18:54:04.092Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:54:04.119Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T18:54:07.056Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:54:07.088Z"}
+{"level":"info","message":"Fetching all logs","timestamp":"2025-05-27T18:54:28.379Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T18:58:46.720Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T18:58:46.752Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:00:09.460Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:00:09.497Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:01:35.872Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:01:35.896Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:01:45.228Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:01:45.257Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:04:01.110Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:04:01.139Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:04:03.516Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:04:03.546Z"}
+{"level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:04:07.094Z"}
+{"level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:04:54.580Z"}
+{"level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:04:54.914Z"}
+{"level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:04:55.131Z"}
+{"level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:04:55.340Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:05:33.432Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:05:33.464Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:05:35.607Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:05:35.633Z"}
+{"accept":"*/*","content-length":"61","content-type":"application/json","host":"localhost:8080","level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:05:35.798Z","user-agent":"insomnia/11.1.0"}
+{"accept":"*/*","content-length":"61","content-type":"application/json","host":"localhost:8080","level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:05:36.999Z","user-agent":"insomnia/11.1.0"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:06:37.542Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:06:37.569Z"}
+{"accept":"*/*","content-length":"61","content-type":"application/json","host":"localhost:8080","level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:07:41.511Z","user-agent":"insomnia/11.1.0"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:08:33.610Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:08:33.640Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:08:33.642Z"}
+{"accept":"*/*","content-length":"61","content-type":"application/json","host":"localhost:8080","level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:08:55.059Z","user-agent":"insomnia/11.1.0"}
+{"accept":"*/*","content-length":"61","content-type":"application/json","host":"localhost:8080","level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:09:22.077Z","user-agent":"insomnia/11.1.0"}
+{"accept":"*/*","content-length":"61","content-type":"application/json","host":"localhost:8080","level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:09:22.857Z","user-agent":"insomnia/11.1.0"}
+{"accept":"*/*","content-length":"61","content-type":"application/json","host":"localhost:8080","level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:09:23.664Z","user-agent":"insomnia/11.1.0"}
+{"accept":"*/*","content-length":"61","content-type":"application/json","host":"localhost:8080","level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:09:24.235Z","user-agent":"insomnia/11.1.0"}
+{"accept":"*/*","content-length":"61","content-type":"application/json","host":"localhost:8080","level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:09:24.759Z","user-agent":"insomnia/11.1.0"}
+{"accept":"*/*","content-length":"61","content-type":"application/json","host":"localhost:8080","level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:09:25.186Z","user-agent":"insomnia/11.1.0"}
+{"accept":"*/*","content-length":"61","content-type":"application/json","host":"localhost:8080","level":"info","message":"Fetching all logs","timestamp":"2025-05-27T19:09:28.354Z","user-agent":"insomnia/11.1.0"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:34:31.629Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:34:31.658Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:34:31.660Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:36:53.590Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:36:53.649Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:36:53.651Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'fatal')","timestamp":"2025-05-27T19:36:56.171Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'fatal')","timestamp":"2025-05-27T19:37:21.567Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:37:28.335Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:37:28.363Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:37:28.366Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'error')","timestamp":"2025-05-27T19:37:30.518Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'error')","timestamp":"2025-05-27T19:38:36.214Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'error')","timestamp":"2025-05-27T19:38:36.808Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'error')","timestamp":"2025-05-27T19:43:30.974Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:46:23.987Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:46:24.013Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:46:24.016Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:46:27.569Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:46:27.570Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:46:27.579Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:47:51.059Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:47:51.093Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:47:51.098Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:47:56.589Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:47:56.589Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:47:56.590Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:50:21.103Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:50:21.131Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:50:21.133Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:50:22.322Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:50:22.324Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:50:22.328Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:51:13.075Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:51:13.076Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:51:13.076Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:51:45.733Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:51:45.733Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:51:45.734Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:52:13.989Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:52:13.989Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:52:13.990Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:52:47.000Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:52:47.000Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:52:47.001Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:52:47.496Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:52:47.496Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:52:47.497Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:52:48.765Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:52:48.766Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:52:48.766Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:52:48.972Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:52:48.972Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:52:48.973Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:52:49.166Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:52:49.167Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:52:49.167Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:52:49.376Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:52:49.377Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:52:49.377Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:52:49.584Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:52:49.584Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:52:49.584Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:52:49.769Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:52:49.769Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:52:49.770Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:52:49.943Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:52:49.943Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:52:49.943Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:53:15.750Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:53:15.792Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:53:15.794Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:53:18.820Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:53:18.821Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:53:18.821Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:55:58.099Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:55:58.132Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:55:58.134Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:56:06.799Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:56:06.799Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:56:06.799Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:56:58.112Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:56:58.133Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:56:58.135Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:57:00.671Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:57:00.671Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:57:00.671Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:57:04.983Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:57:04.983Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:57:04.984Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:57:22.165Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:57:22.193Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:57:22.196Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:57:25.130Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:57:25.130Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:57:25.130Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:57:37.430Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:57:37.477Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:57:37.480Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:57:42.353Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:57:42.398Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:57:42.401Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:57:45.667Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T19:57:45.667Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T19:57:45.668Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:59:12.297Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:59:12.328Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:59:12.331Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T19:59:16.892Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T19:59:37.594Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T19:59:37.629Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T19:59:37.631Z"}
+{"level":"error","message":"req.logger.fatal is not a function","timestamp":"2025-05-27T19:59:41.431Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T20:00:19.441Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T20:00:19.470Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T20:00:19.473Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T20:00:41.693Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T20:00:41.694Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T20:00:41.695Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T20:01:05.305Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T20:01:05.305Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T20:01:05.306Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T20:02:46.212Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T20:02:46.242Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T20:02:46.245Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T20:04:01.285Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T20:04:01.322Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T20:04:01.325Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T20:04:09.933Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T20:04:09.961Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T20:04:09.963Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T20:04:13.018Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T20:04:13.019Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T20:04:13.020Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T20:08:51.028Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T20:08:51.064Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T20:08:51.067Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T20:09:19.523Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T20:09:19.524Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T20:09:19.525Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T20:09:41.164Z"}
+{"level":"info","message":"Server mode = Dev","timestamp":"2025-05-27T20:09:41.190Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T20:09:41.192Z"}
+{"level":"error","message":"error","timestamp":"2025-05-27T20:09:44.213Z"}
+{"level":"warn","message":"warning","timestamp":"2025-05-27T20:09:44.214Z"}
+{"level":"info","message":"info","timestamp":"2025-05-27T20:09:44.214Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T20:10:04.940Z"}
+{"level":"info","message":"Server mode = PROD","timestamp":"2025-05-27T20:10:04.965Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T20:10:04.967Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T20:14:10.027Z"}
+{"level":"info","message":"Server mode = PROD","timestamp":"2025-05-27T20:14:10.053Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T20:14:10.055Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T20:17:51.379Z"}
+{"level":"info","message":"Server mode = PROD","timestamp":"2025-05-27T20:17:51.405Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T20:17:51.408Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T20:18:24.721Z"}
+{"level":"info","message":"Server mode = PROD","timestamp":"2025-05-27T20:18:24.745Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T20:18:24.748Z"}
+{"level":"info","message":"Logger router initialized","timestamp":"2025-05-27T20:19:37.330Z"}
+{"level":"info","message":"Server mode = PROD","timestamp":"2025-05-27T20:19:37.355Z"}
+{"level":"info","message":"Listening on 8080","timestamp":"2025-05-27T20:19:37.357Z"}
