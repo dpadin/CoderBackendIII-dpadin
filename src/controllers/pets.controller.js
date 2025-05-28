@@ -24,7 +24,7 @@ try {
     if( qty <=0 ) throw new Error("Invalid quantity - must be greater than 0");
     if(isNaN(qty)) throw new Error("Invalid quantity - must be a number");
 
-    const pets = generateRandomPet(qty);
+    const pets = await generateRandomPet(qty);
     res.send({status:"success",payload:pets})
 }
 catch (error) { 
