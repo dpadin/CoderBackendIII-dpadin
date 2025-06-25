@@ -25,6 +25,7 @@ try {
     if(isNaN(qty)) throw new Error("Invalid quantity - must be a number");
 
     const pets = await generateRandomPet(qty);
+    
     res.send({status:"success",payload:pets})
 }
 catch (error) { 

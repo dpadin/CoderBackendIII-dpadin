@@ -37,9 +37,17 @@ dotenv.config();
 const app = express();
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
-
 const PORT = process.env.PORT||8080;
-const connection = mongoose.connect("mongodb://localhost:27017/adoptions")
+
+try {
+   mongoose.set('strictQuery', false); // To avoid deprecation warning
+   const mongoConnection =process.env.MONGO_WEB
+   mongoose.connect(mongoConnection)
+ 
+  loggerDev.info('Connected to MongoDB');
+} catch (error) {
+  loggerDev.error('Error connecting to MongoDB:', error.message);
+}
 
 app.use(express.json());
   app.use(urlencoded({ extended: true }))
@@ -61,5 +69,4 @@ app.listen(PORT,()=>
 
 loggerDev.info(`Listening on ${PORT}`))
 loggerDev.info(`Server mode = ${process.env.NODE_ENV}`)
-// mongoose.connect("mongodb://localhost:27017/adoptions")
-  //console.log(`Listening on ${PORT}`))
+
