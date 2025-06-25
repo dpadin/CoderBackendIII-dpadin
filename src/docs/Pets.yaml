@@ -1,0 +1,65 @@
+paths:
+  /api/pets/:
+    get:
+      summary: Obtiene todas las mascotas
+      tags:
+        - Pets
+      responses:
+        "200":
+          description: Las mascotas fueron obtenidas OK desde la DB
+
+        "500":
+          description: Error interno del servidor
+    post:
+      summary: Crea una mascota
+      description: Datos de la nueva mascota
+      tags:
+      - Pets
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#components/requestBodies/createPet'
+      
+      responses:
+        "200":
+          description: Las mascotas agregada OK a la DB
+
+        "500":
+          description: Error interno del servidor
+  /api/pets/{Id}:  
+    put:
+      summary: Actualiza una mascota
+      parameters:
+      - name: Id
+        in: path
+        required: true
+        description: id de la mascota que se actualizara
+        schema:
+          type: string
+          example: edd53858a429df34fdad8bc4
+      tags:
+        - Pets
+      responses:
+        "200":
+          description: Las mascotas ha sido acutalizada OK en la DB
+        "500":
+          description: Error interno del servidor
+    delete:
+      summary: Elimina una mascota
+      tags:
+        - Pets
+      parameters:
+      - name: Id
+        in: path
+        required: true
+        description: id de la mascota que se eliminara
+        schema:
+          type: string
+          example: edd53858a429df34fdad8bc4
+      responses:
+        "200":
+          description: Las mascotas ha sido Eliminada OK en la DB
+        "500":
+          description: Error interno del servidor

@@ -74,7 +74,7 @@ Mover el endpoint “/mockingpets” (Desarrollado en el primer Desafío Entrega
  dentro de este router.
 
 COMPLETADO  
-USER:
+USAR:
 http://localhost:8080/api/mocks/mockingpets
 Ó 
 http://localhost:8080/api/mocks/mockingpets/qty aty = number
@@ -85,13 +85,18 @@ Dichos usuarios generados deberán tener las siguientes características:
 En “password” debe tener la contraseña “coder123” encriptada.
 “role” puede variar entre “user” y “admin”.
 “pets” debe ir como array vacío.
-COMPLETADO
+OMPLETADO
 
 Dentro del router mocks.router.js, utilizar este módulo en un endpoint 
 GET llamado “/mockingusers”, y generar 50 usuarios con el mismo formato que 
 entregaría una petición de Mongo.
 COMPLETADO
+USAR 
+http://localhost:8080/api/mocks/mockingusers  >> genera 50 users
+o
+http://localhost:8080/api/mocks/mockingusers/1  >> genera 1 users
 
+ 
 se debe entregar
 
 Dentro del router mocks.router.js, desarrollar un endpoint POST 
@@ -116,4 +121,34 @@ Link al repositorio de Github con el proyecto completo, sin la carpeta de
 
 
 
+ENTREGA FINAL
 
+Dockerizando nuestro Proyecto
+
+Objetivos generales
+
+Implementar las últimas mejoras en nuestro proyecto y Dockerizarlo.
+Objetivos específicos
+
+Documentar las rutas restantes de nuestro proyecto. COMPLETADO
+Añadir los últimos tests. 
+  Tests unitarios agregados para DAOS/DTOS (npx mocha ./test/** --exit)
+
+Crear una imagen de Docker.
+Se debe entregar
+
+Documentar con Swagger el módulo de “Users”. ** COMPLETADO
+Se debe entregar
+Desarrollar los tests funcionales para todos los endpoints del router “adoption.router.js”.
+
+Desarrollar el Dockerfile para generar una imagen del proyecto.
+Subir la imagen de Docker a Dockerhub y añadir en un ReadMe.md al proyecto que contenga el link de dicha imagen.
+
+ormato
+
+Link al repositorio de Github con el proyecto (sin node_modules)
+Además, archivo .env para poder correr el proyecto.
+
+Sugerencias
+
+Para repasar Docker, se recomienda revisar la clase 5 “Clusters & Escalabilidad”.

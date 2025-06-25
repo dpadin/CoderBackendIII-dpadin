@@ -66,11 +66,28 @@ catch (error) {
     }   
 }
 
+const createUser = async(req,res,next)=>{
+try {   
+    
+    const user = req.body;
+    console.log(user);
+    if(!user.first_name || !user.last_name || !user.email || !user.password
+        || !user.role) throw new Error("Invalid entries missing fields");       
 
+        const result = await usersService.create(user)
+ 
+    
+    res.send({status:"success",payload:result})
+}
+catch (error) { 
+     next(error)
+    }   
+}
 
 export default {
     deleteUser,
     getAllUsers,
+    createUser,
     getUser,
     updateUser,
     getMockingUsers

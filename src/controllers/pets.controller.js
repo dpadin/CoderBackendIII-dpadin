@@ -34,6 +34,7 @@ catch (error) {
 
 const createPet = async(req,res,next)=> {
 try{
+   
     const {name,specie,birthDate} = req.body;
       if(!name||!specie||!birthDate) throw new Error("Invalid entries missing fileds");
       const pet = PetDTO.getPetInputFrom({name,specie,birthDate});

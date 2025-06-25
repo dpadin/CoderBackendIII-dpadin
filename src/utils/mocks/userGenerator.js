@@ -28,3 +28,24 @@ for (let i = 0; i < quantity; i++) {
 return users;
 }  
 
+export  const generateUser = async () => {
+
+ 
+const password =  "coder123"
+const hashedPassword =  await createHash(password) 
+ 
+    user.push ({
+        first_name: fa.person.firstName(),
+        last_name: fa.person.lastName(),
+        email:  fa.internet.email(),
+        password: hashedPassword,
+        role: fa.helpers.arrayElement(['user', 'admin']), // Randomly choose between 'user' and 'admin'
+        pets:[],
+        _id:fa.database.mongodbObjectId(),
+        __v: 0
+
+    }) 
+ 
+
+return user;
+}  

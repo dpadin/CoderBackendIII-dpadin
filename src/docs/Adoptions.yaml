@@ -1,0 +1,59 @@
+paths:
+  /api/adoptions/:
+    get:
+      summary: Obtiene todas las adopciones
+      tags:
+        - Adoptions
+      responses:
+        "200":
+          description: Las adopciones fueron obtenidas OK desde la DB
+        "404":
+          description: Not Found
+        "500":
+          description: Error interno del servidor
+  /api/adoptions/{uid}/{pid}:  
+    post:
+      summary: Crea una adopcion
+      description: Datos de la nueva adopcion
+      tags:
+      - Adoptions
+      parameters:
+      - name: uid
+        in: path  
+        required: true
+        schema:
+          type: string
+          example: edd53858a429df34fdad8bc4
+      - name: pid
+        in: path  
+        required: true  
+        schema:
+          type: string
+          example: 2fbd12ce222582db6ce53aa0
+      
+      responses:
+        "200":
+          description: La adopcion ha sido creada OK a la DB
+        "500":
+          description: Error interno del servidor
+  /api/adoptions/{Id}:  
+    get:
+      summary: busca una adopcion en particular
+      parameters:
+      - name: Id
+        in: path
+        required: true
+        description: id de la adopcion a buscar
+        schema:
+          type: string
+          example: 
+      tags:
+        - Adoptions
+      responses:
+        "200":
+          description: Las adopcion ha sido acutalizada OK en la DB
+        "404":
+          description: Not Found
+        "500":
+          description: Error interno del servidor
+   

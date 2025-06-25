@@ -15,10 +15,29 @@ import dotenv from 'dotenv';
 import { errorHandler } from './middlewares/errorHandler.js';
 import { loggerProd, loggerDev, middlelog } from "./utils/logger.js"
 
+import swaggerJsdoc from 'swagger-jsdoc';
+import swaggerUi from 'swagger-ui-express';
+
+const options = {
+  definition: {
+    openapi: '3.0.0',
+    info: {
+      title: 'Adoption API',
+      version: '1.0.0',
+      description: 'API for managing pet adoptions',
+    },
+  },
+  apis: ["./src/docs/*.yaml"]
+};
+const specs = swaggerJsdoc(options);
+
 dotenv.config();
 
 
 const app = express();
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
+
 const PORT = process.env.PORT||8080;
 const connection = mongoose.connect("mongodb://localhost:27017/adoptions")
 
