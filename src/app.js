@@ -41,8 +41,9 @@ const PORT = process.env.PORT||8080;
 
 try {
    mongoose.set('strictQuery', false); // To avoid deprecation warning
-   const mongoConnection =process.env.MONGO_WEB
-   mongoose.connect(mongoConnection)
+ 
+   const mongoConnection =process.env.MONGO_URL
+   mongoose.connect(mongoConnection,{dbname:process.env.DB_NAME})
  
   loggerDev.info('Connected to MongoDB');
 } catch (error) {

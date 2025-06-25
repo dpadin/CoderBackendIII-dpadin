@@ -131,20 +131,24 @@ Implementar las últimas mejoras en nuestro proyecto y Dockerizarlo.
 Objetivos específicos
 
 Documentar las rutas restantes de nuestro proyecto. COMPLETADO
-Añadir los últimos tests. 
-  Tests unitarios agregados para DAOS/DTOS (npx mocha ./test/** --exit)
+Añadir los últimos tests.  COMPLETADO
+  1-Tests unitarios agregados para DAOS/DTOS (npx mocha ./test/** --exit)
+  2-Tests integardores de pets & users y adoptions.
+  
 
 Crear una imagen de Docker.
+
 Se debe entregar
 
 Documentar con Swagger el módulo de “Users”. ** COMPLETADO
 Se debe entregar
 Desarrollar los tests funcionales para todos los endpoints del router “adoption.router.js”.
+COMPLETADO
 
 Desarrollar el Dockerfile para generar una imagen del proyecto.
 Subir la imagen de Docker a Dockerhub y añadir en un ReadMe.md al proyecto que contenga el link de dicha imagen.
 
-ormato
+formato
 
 Link al repositorio de Github con el proyecto (sin node_modules)
 Además, archivo .env para poder correr el proyecto.
